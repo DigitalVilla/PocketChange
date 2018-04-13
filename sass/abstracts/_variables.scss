@@ -1,0 +1,23 @@
+
+:root {
+    /* COLORS */
+    --color1: rgb(39, 173, 151);
+    --color2: rgb(83, 226, 167);
+    --gradient: to top right, var(--color1), var(--color2);
+    --colorLight: #fcfcff;
+    --colorLight2: #ebebeb;
+    --colorgray: #cccccc;
+    --dark1: #333;
+    //Grid 
+    --grid-width:100%;
+    --gap-V:2rem;
+    --gap-H:3rem;
+    
+    //Media Break Points
+    --BP1:850px;
+    --BP2:660px;
+    --BP3:590px;
+    
+    // Desktop
+    --BP1x: 1200px;
+}

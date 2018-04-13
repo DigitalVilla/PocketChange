@@ -1,0 +1,20 @@
+.convert-btn {
+    color: #fff;
+    margin: auto;
+    // margin: 1rem;
+    background-image: linear-gradient(var(--gradient));
+    padding: .8rem 4rem;
+    border-radius: 5rem;
+    font-size: 1.9rem;
+    border: none;
+    box-shadow: var(--shadow1);
+    // border: 4px solid transparent;
+    cursor: pointer;
+    &:active {
+        background-image:none; 
+        background-color: inherit;
+        border: 3px solid var(--colorLight);
+        color: var(--colorLight);
+    }
+
+}

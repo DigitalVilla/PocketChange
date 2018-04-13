@@ -1,0 +1,39 @@
+*,
+
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+button, input, select, {
+    &:hover,
+    &:active,
+    &:focus, 
+    &:visited {
+        outline: none !important;
+    }
+
+}
+*::-moz-focus-inner {
+    border: 0 !important;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+section.main {
+
+    height: 100vh;
+}
